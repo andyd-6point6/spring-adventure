@@ -8,7 +8,7 @@ import static org.junit.jupiter.api.Assertions.*;
 
 class ServiceAppTest {
 
-    private ServiceApp serviceApp;
+    //private ServiceApp serviceApp;
 
     @Test
     void request() {
