@@ -9,8 +9,7 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 public class ServiceApp {
 
-    //@Autowired
-    //private MyThingy myThingy;
+    //private final MyThingy myThingy = new MyThingy();
 
     @RequestMapping("/")
     public String request() {
