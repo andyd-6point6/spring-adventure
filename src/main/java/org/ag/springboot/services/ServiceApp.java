@@ -9,12 +9,12 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 public class ServiceApp {
 
-    //@Autowired
-    //private MyThingy myThingy;
+    @Autowired
+    private MyThingy myThingy;
 
     @RequestMapping("/")
     public String request() {
-        return "Hello!! " + new MyThingy().returnAString();
+        return "Hello!! " + myThingy.returnAString();
     }
 
     @RequestMapping("/addup")
